@@ -24,4 +24,5 @@ unmodified:- unchanged
 ![alt text](image-2.png)
 11. git add <file name> eg. git add README.md
 11(a). git add .(for adding all files in our directory)
-.
+12. git commit -m "some message" (holds record of change)
+
