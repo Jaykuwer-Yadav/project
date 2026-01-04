@@ -64,4 +64,47 @@ git commands
     remote: Resolving deltas: 100% (2/2), done.
     To https://github.com/Jaykuwer-Yadav/project.git
     f7c6ce0..a286148 main -> main
-15.
+15.#### <u>use of INIT Commands</u>
+use to create a new repo
+now we need to make a new directory using terminal in our folder 
+command is 
+first use cd ..
+1. ***mkdir New-repo***
+pic :- ![alt text](image-3.png)
+see we made new repo
+After that we need to see folders does our Folder is git folder or not we need to identify it first using ls ***ls***
+but we need to initialize the folder as git folder using 
+***git init***
+![alt text](image-4.png)
+After that we need to see files we use this code before 
+as ***Get-ChildItem -Force***
+![alt text](image-5.png)
+ A Quick guide from GITHUB
+ ![alt text](image-6.png)
+ To add our files locally to remote folder using ***git remote add origin " your link of new repo u created"
+![alt text](image-7.png)
+To verify your remote Repo we use code ***git remote -v***
+![For verifying remote](image-8.png)
+For verifying our Git branch
+***git branch***
+![Git Branch](image-9.png)
+we see master??
+we can change this branch as main as we did all work on our main 
+so we will use ***git branch -M (rename)***
+we did ***git push origin main*** many times now we set upstream for our future things to get easy so we will use use git code as ***git push -u*** y this only??
+git push -u origin main pushes your commits and sets up "upstream tracking" so future git push works without typing the full command.
+for eg we say GitHub that we won't write full program we will use this command as 
+***git push -u***
+to set this  we use ***git push -u origin main*** 
+![after setting up we see this commands](image-10.png)
+then we can use See [line 97 code here](#L97)
+Don't directly use Push command before that Add and Commit 
+#### Branches
+to see in which branch we are in we use ***git branch***
+to rename we use ***git branch -M (name)***
+To make new branch we use ***git checkout -b <-brach name->***
+to checkout from the branch we use ***git checkout***
+![abt branch](image-11.png)
+to delete ***git checkout -d new***
+![to delete ](image-12.png)
+ 
